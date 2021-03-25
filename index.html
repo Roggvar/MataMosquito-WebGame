@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Custom Css Style-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script>
+
+        function startGame() {
+            // Behavior para iniciar o jogo, seleçao de nivel, etc...
+            window.location.href = 'app.html';
+        }
+
+    </script>
+
+    <title>Mata Mosquito - Menu</title>
+</head>
+
+<body>
+
+    <!--Container Start-->
+    <div class="container">
+
+        <!--Image Game Over Start-->
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <img class="" src="./img/game.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!--Image Game Over End-->
+
+        <!--Button Restart Start-->
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-danger btn-lg" onclick="startGame();">
+                        Iniciar Jogo
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--Button Restart End-->
+
+    </div>
+    <!--Container End-->
+
+</body>
+
+</html>
